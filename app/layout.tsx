@@ -4,6 +4,8 @@ import "./globals.css";
 import React, { ReactNode } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import {Toaster} from "@/components/ui/sonner";
+import ToasterTrigger from "@/components/ToasterTrigger";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -31,7 +33,10 @@ export default function RootLayout({
         <Navbar/>
         <main className={"w-full"}>{children}</main>
         <Footer/>
+        <ToasterTrigger></ToasterTrigger>
+        <div className="!text-black bg-primary">
+          <Toaster/>
+        </div>
       </body>
-    </html>
-  );
+    </html>);
 }
