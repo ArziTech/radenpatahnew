@@ -1,5 +1,5 @@
-import Image from "next/image";
-import tower from "@/public/hero section/menara mrp.png";
+// import Image from "next/image";
+// import tower from "@/public/hero section/menara mrp.png";
 
 const Hero = () => {
   return (
@@ -55,11 +55,11 @@ const HeroRightSide = () => {
               "absolute bottom-0 left-1/2 h-[566px] w-[353px] -translate-x-1/2 rounded-3xl rounded-b-none border-8 border-b-0 border-white"
             }
         />
-        <Image
-            src={tower}
-            alt={"Gambar Menara MRP"}
-            className={"absolute bottom-0 left-1/2 -translate-x-1/2"}
-        />
+        {/*<Image*/}
+        {/*    src={tower}*/}
+        {/*    alt={"Gambar Menara MRP"}*/}
+        {/*    className={"absolute bottom-0 left-1/2 -translate-x-1/2"}*/}
+        {/*/>*/}
       </div>
   );
 };

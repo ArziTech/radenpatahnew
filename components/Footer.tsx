@@ -1,14 +1,14 @@
 import React from "react";
-import Image from "next/image";
-import logoMrp from "@/public/mrp-logo.png";
-import unit from "@/public/units-compiled.png";
-import yt from "@/public/icons/yt.svg";
-import tiktok from "@/public/icons/tiktok.svg";
-import tele from "@/public/icons/tele.svg";
-import ig from "@/public/icons/ig.svg";
-import fb from "@/public/icons/fb.svg";
-import wa from "@/public/icons/wa.svg";
-import Link from "next/link";
+// import Image from "next/image";
+// import logoMrp from "@/public/mrp-logo.png";
+// import unit from "@/public/units-compiled.png";
+// import yt from "@/public/icons/yt.svg";
+// import tiktok from "@/public/icons/tiktok.svg";
+// import tele from "@/public/icons/tele.svg";
+// import ig from "@/public/icons/ig.svg";
+// import fb from "@/public/icons/fb.svg";
+// import wa from "@/public/icons/wa.svg";
+// import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
         <div
           className={"flex w-full flex-col items-center justify-center gap-8"}
         >
-          <Image src={logoMrp} alt={"Logo Masjid Raden Patah"} />
+          {/*<Image src={logoMrp} alt={"Logo Masjid Raden Patah"} />*/}
           <div className={"space-y-2 text-center"}>
             <p className={"text-xl font-medium lg:text-2xl"}>
               Jalan Kampus Universitas Brawijaya
@@ -67,14 +67,14 @@ const Footer = () => {
           <p className={"text-center text-xl font-medium lg:text-2xl"}>
             Ikuti Kami
           </p>
-          <Image
-            src={unit}
-            className={"h-[75px] object-contain md:h-[100px]"}
-            alt={
-              "Imam Muda, Digital Creative, Umar, Pusat Tahfidz Qur'an, dan MRP Lunch Space "
-            }
-          />
-          <SocmedFooter />
+          {/*<Image*/}
+          {/*  src={unit}*/}
+          {/*  className={"h-[75px] object-contain md:h-[100px]"}*/}
+          {/*  alt={*/}
+          {/*    "Imam Muda, Digital Creative, Umar, Pusat Tahfidz Qur'an, dan MRP Lunch Space "*/}
+          {/*  }*/}
+          {/*/>*/}
+          {/*<SocmedFooter />*/}
           {/*  */}
         </div>
         {/** End Content Here */}
@@ -84,80 +84,80 @@ const Footer = () => {
 };
 export default Footer;
 
-const SocmedFooter = () => {
-  return (
-    <div
-      className={
-        "flex w-full flex-col items-center justify-center gap-4 md:flex-row [&_p]:text-base [&_p]:font-medium md:[&_p]:text-lg"
-      }
-    >
-      {/*  Start Here*/}
-      <Link
-        href={"https://wa.me/628993117777"}
-        className={"flex items-center gap-3"}
-      >
-        <Image
-          className={"size-5 md:size-6"}
-          src={wa}
-          alt={"whatsaapp 0899 311 7777"}
-        />
-        <p className={""}>0899 311 7777</p>
-      </Link>
-      <Link
-        href={"https://youtube.com/@mrpmedia?si=BNpQh4uYrEqmxN_7"}
-        className={"flex items-center gap-3"}
-      >
-        <Image
-          className={"size-5 md:size-6"}
-          src={yt}
-          alt={"Youtube mrpmedia"}
-        />
-        <p className={""}>mrpmedia</p>
-      </Link>
-      <div className={"flex items-center gap-3"}>
-        <div className={"flex gap-2"}>
-          <Link href={"https://t.me/masjidradenpatah_ub"} target="_blank">
-            <Image
-              className={"size-5 md:size-6"}
-              src={tele}
-              alt={"Telegram: masjidradenpatah.ub"}
-            />
-          </Link>
-          <Link
-            href={"https://www.facebook.com/masjidradenpatah.ub"}
-            target="_blank"
-          >
-            <Image
-              className={"size-5 md:size-6"}
-              src={fb}
-              alt={"Facebook: masjidradenpatah.ub"}
-            />
-          </Link>
-          <Link
-            href={"https://www.instagram.com/masjidradenpatah.ub"}
-            target="_blank"
-          >
-            <Image
-              className={"size-5 md:size-6"}
-              src={ig}
-              alt={"Instagram: masjidradenpatah.ub"}
-            />
-          </Link>
-          <Link
-            href={"https://www.tiktok.com/@masjidradenpatah.ub"}
-            target="_blank"
-          >
-            <Image
-              className={"size-5 md:size-6"}
-              src={tiktok}
-              alt={"Tiktok: masjidradenpatah.ub"}
-            />
-          </Link>
-        </div>
-
-        <p>masjidradenpatah.ub</p>
-      </div>
-      {/*  End Here*/}
-    </div>
-  );
-};
+// const SocmedFooter = () => {
+//   return (
+//     <div
+//       className={
+//         "flex w-full flex-col items-center justify-center gap-4 md:flex-row [&_p]:text-base [&_p]:font-medium md:[&_p]:text-lg"
+//       }
+//     >
+//       {/*  Start Here*/}
+//       <Link
+//         href={"https://wa.me/628993117777"}
+//         className={"flex items-center gap-3"}
+//       >
+//         <Image
+//           className={"size-5 md:size-6"}
+//           src={wa}
+//           alt={"whatsaapp 0899 311 7777"}
+//         />
+//         <p className={""}>0899 311 7777</p>
+//       </Link>
+//       <Link
+//         href={"https://youtube.com/@mrpmedia?si=BNpQh4uYrEqmxN_7"}
+//         className={"flex items-center gap-3"}
+//       >
+//         <Image
+//           className={"size-5 md:size-6"}
+//           src={yt}
+//           alt={"Youtube mrpmedia"}
+//         />
+//         <p className={""}>mrpmedia</p>
+//       </Link>
+//       <div className={"flex items-center gap-3"}>
+//         <div className={"flex gap-2"}>
+//           <Link href={"https://t.me/masjidradenpatah_ub"} target="_blank">
+//             <Image
+//               className={"size-5 md:size-6"}
+//               src={tele}
+//               alt={"Telegram: masjidradenpatah.ub"}
+//             />
+//           </Link>
+//           <Link
+//             href={"https://www.facebook.com/masjidradenpatah.ub"}
+//             target="_blank"
+//           >
+//             <Image
+//               className={"size-5 md:size-6"}
+//               src={fb}
+//               alt={"Facebook: masjidradenpatah.ub"}
+//             />
+//           </Link>
+//           <Link
+//             href={"https://www.instagram.com/masjidradenpatah.ub"}
+//             target="_blank"
+//           >
+//             <Image
+//               className={"size-5 md:size-6"}
+//               src={ig}
+//               alt={"Instagram: masjidradenpatah.ub"}
+//             />
+//           </Link>
+//           <Link
+//             href={"https://www.tiktok.com/@masjidradenpatah.ub"}
+//             target="_blank"
+//           >
+//             <Image
+//               className={"size-5 md:size-6"}
+//               src={tiktok}
+//               alt={"Tiktok: masjidradenpatah.ub"}
+//             />
+//           </Link>
+//         </div>
+//
+//         <p>masjidradenpatah.ub</p>
+//       </div>
+//       {/*  End Here*/}
+//     </div>
+//   );
+// };

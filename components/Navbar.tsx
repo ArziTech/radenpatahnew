@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
-import mrplogo from "@/public/icons/Logo MRP Horizontal Text Black.png";
+// import Image from "next/image";
+// import mrplogo from "@/public/icons/Logo MRP Horizontal Text Black.png";
 
 import MenuToggle from "@/components/MenuToggle";
 import MobileNavbar from "@/components/MobileNavbar";
@@ -14,12 +14,12 @@ const Navbar = () => {
       <nav className={"container mx-auto flex w-full items-center" +
           " justify-between"}>
         <div>
-          <Image
-            height={70}
-            src={mrplogo}
-            alt={"Logo Masjid Raden Patah"}
-            quality={100}
-          />
+          {/*<Image*/}
+          {/*  height={70}*/}
+          {/*  src={mrplogo}*/}
+          {/*  alt={"Logo Masjid Raden Patah"}*/}
+          {/*  quality={100}*/}
+          {/*/>*/}
         </div>
         <div className={"hidden gap-4 md:flex lg:gap-8"}>
           <NavLink link={"/"} text={"Home"} />
