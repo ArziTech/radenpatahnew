@@ -37,36 +37,11 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div
-          className={
-            "hidden w-full justify-center gap-10 lg:flex [&_p]:text-center [&_p]:text-base lg:[&_p]:text-lg"
-          }
-        >
-          {/*  Start Links Here*/}
-          <div className={"space-y-3"}>
-            <p className={"font-medium"}>Program</p>
-            <p>Program Harian</p>
-            <p>Program Tahunan</p>
-          </div>
-          <div className={"space-y-3"}>
-            <p className={"font-medium"}>Layanan</p>
-            <p>Akad Nikah</p>
-            <p>Konsultasi Agama</p>
-            <p>Mualaf Center</p>
-          </div>
-          <div className={"space-y-3"}>
-            <p className={"font-medium"}>Artikel</p>
-            <p>Fiqih</p>
-            <p>Sejarah Islam</p>
-            <p>Tauhid</p>
-          </div>
-          {/*  End Links Here*/}
-        </div>
-        <div className={"flex flex-col items-center justify-center gap-3"}>
+        {/*<div className={"flex flex-col items-center justify-center gap-3"}>*/}
           {/*  */}
-          <p className={"text-center text-xl font-medium lg:text-2xl"}>
-            Ikuti Kami
-          </p>
+          {/*<p className={"text-center text-xl font-medium lg:text-2xl"}>*/}
+          {/*  Ikuti Kami*/}
+          {/*</p>*/}
           {/*<Image*/}
           {/*  src={unit}*/}
           {/*  className={"h-[75px] object-contain md:h-[100px]"}*/}
@@ -76,7 +51,7 @@ const Footer = () => {
           {/*/>*/}
           {/*<SocmedFooter />*/}
           {/*  */}
-        </div>
+        {/*</div>*/}
         {/** End Content Here */}
       </div>
     </div>

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 
 import MenuToggle from "@/components/MenuToggle";
 import MobileNavbar from "@/components/MobileNavbar";
-import NavLink from "@/components/NavLink";
+// import NavLink from "@/components/NavLink";
 import MrpHorizontal from "@/components/MrpHorizontal";
 
 const Navbar = () => {
@@ -24,12 +24,6 @@ const Navbar = () => {
           <MrpHorizontal className={'max-h-20'}></MrpHorizontal>
         </div>
         <div className={"hidden gap-4 md:flex lg:gap-8"}>
-          <NavLink link={"/"} text={"Home"} />
-          <NavLink link={"/profile"} text={"Profile"} />
-          <NavLink link={"/programs"} text={"Program"} />
-          <NavLink link={"/services"} text={"Layanan"} />
-          {/*<NavLink link={"/article"} text={"Artikel"} />*/}
-          <NavLink link={"/contact"} text={"Kontak"} />
         </div>
         <MenuToggle
           value={isNavbarOpen}

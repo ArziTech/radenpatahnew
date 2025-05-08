@@ -16,11 +16,11 @@ const ToasterTrigger = () => {
           onClick: () => router.push('https://radenpatah.com'),
         },
       });
-    }, 10000); // 5000 milidetik = 5 detik
+    }, 15000); // 5000 milidetik = 5 detik
 
     // Cleanup function untuk clear interval ketika komponen unmount
     return () => clearInterval(intervalId);
-  }, []); // Empty dependency array berarti efek hanya dijalankan sekali saat mount
+  }, [router]); // Empty dependency array berarti efek hanya dijalankan sekali saat mount
 
   return <div className={'hidden'}></div>
 }
